@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Log-in</title>
+  </head>
+  <body id="bd1">
+    <div class="tittle">
+      <h1>Clinica del niño</h1>
+    </div>
+   <div class="todo">
+    <div class="presentacion">
+      <h2>Bienvenidos a la clinica del niño</h2>
+    </div>
+    <div id="divForm">
+      <div class="slider-frame">
+        <ul>
+          <li><img src="/Assets/bebe1.jpg" alt="" /></li>
+          <li><img src="/Assets/bebe2.jpg" alt="" /></li>
+          <li><img src="/Assets/bebe3.jpg" alt="" /></li>
+          <li><img src="/Assets/bebe4.jpg" alt="" /></li>
+          <li><img src="/Assets/bebe5.jpg" alt="" /></li>
+          <li><img src="/Assets/bebe6.jpg" alt="" /></li>
+          <li><img src="/Assets/bebe7.jpg" alt="" /></li>
+        </ul>
+      </div>
+      <form id="formLogin" class="formulario">
+        <p class="log">
+          Para acceder por favor ingrese con su cuenta o registrese.
+        </p>
+
+        <div class="data">
+          <input
+            class="inp"
+            name="email"
+            id="emailLog"
+            type="email"
+            placeholder="Correo Electronico"
+          />
+          <input
+            class="inp"
+            name="password"
+            id="passLog"
+            type="password"
+            placeholder="Contraseña"
+          />
+          <input class="inpu" type="submit" value="Ingresar" id="ingreso" />
+        </div>
+        <div id="cuenta">
+          <p>¿Todavia no tienes una cuenta?</p>
+          <a href="/register.html">Click aqui para registrarte!</a>
+        </div>
+      </form>
+    </div>
+  </div>
+    <script src="/login.js"></script>
+  </body>
+</html>

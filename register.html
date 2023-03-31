@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Register</title>
+  </head>
+  <body id="bd2">
+    <div class="tittle">
+      <h1>Clinica del niño</h1>
+    </div>
+   <div class="todo">
+    <div class="register">
+      <div class="formulario2">
+        <h2 class="textReg" id="reg">Registrate</h2>
+        <h3 class="textReg">Es rápido y fácil.</h3>
+        <form id="form">
+          <input
+            class="inp"
+            id="nombre"
+            type="text"
+            placeholder="Nombre"
+            required
+          />
+          <input
+            class="inp"
+            id="apellido"
+            type="text"
+            placeholder="Apellido"
+            required
+          />
+          <input
+            class="inp"
+            id="email"
+            type="email"
+            placeholder="Correo Electronico"
+            required
+          />
+          <input
+            class="inp"
+            id="password"
+            type="password"
+            placeholder="Contraseña"
+            class="pass"
+            required
+          />
+          <input
+            class="inp"
+            id="repass"
+            type="password"
+            placeholder="Repita la contraseña"
+            class="pass"
+            required
+          />
+          <label class="input" for="fechadenac"><br>Fecha de nacimiento</label>
+          <input
+            class="inp"
+            id="dateob"
+            type="date"
+            name="fechadenac"
+            required
+          />
+          <br>
+          <button class="inpu" id="envioReg" type="submit" id="registro">
+            Registrarse
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <script src="/register.js"></script>
+  </body>
+</html>

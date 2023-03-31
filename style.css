@@ -1,0 +1,268 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    background-color: rgb(36, 98, 185);
+    font-style: italic;
+    min-height: 100vh;
+    padding-top: 25px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: #E4EFFF;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario {
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left : auto;
+    margin-right: 7%;
+    padding: 20px;
+    min-height: 400px;
+    max-width: 500px;
+    position:relative;
+    background-color: #E4EFFF;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 10px;
+
+    
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+#cuenta{
+    margin-top: 25%;
+    background-color: rgb(56, 112, 233);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.formulario2 {
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    min-height: 400px;
+    max-width: 500px;
+    background-color: #E4EFFF;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 10px;
+    
+}
+
+.presentacion {
+    background-color: #E4EFFF;
+     font-size:x-large;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 10px;
+    border-radius: 20px 0px;
+    
+   
+}
+
+.log {
+    font-size: x-large;
+    
+}
+
+.textReg{
+    background-color: rgb(56, 112, 233, 0.8);
+    font-size:x-large;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.input{
+    margin-top: 10px;
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.inp{
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 1px;
+    border-radius: 5px 0px;
+    font-style: italic;
+}
+
+.inpu{
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 1px;
+    font-style: italic;
+    background-color: rgb(32, 113, 244); 
+    border: none;
+    color: floralwhite;
+    
+}
+
+.intro{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text{
+    position: relative;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 100px;
+}
+
+.parrafo{
+    width: 400px ;
+    height: 302px;
+    padding: 2%;  
+    border: solid;
+    border-color: rgb(17, 71, 158);
+    margin-right: 1%;
+    background-color: rgb(32, 113, 244); 
+    margin-left: 50%;
+    position: relative;
+    background-color: #E4EFFF;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 10px;
+    margin-top: 5%;
+    margin-left : auto;
+    margin-right: 17%;
+    padding: 20px;.
+
+ }
+
+.profesionales{
+    background-color: #E4EFFF;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 10px;
+    width: 440px;
+    height: 342px;
+	margin-top: 5%;
+    margin-left : 17%;
+    margin-right: auto;
+    position:absolute;
+    
+}
+#pro{
+    font-size: larger;
+    padding: 20px;
+}
+
+
+#divForm{
+   position:relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+/* SLIDER DE FOTOGRAFIAS*/
+.slider-frame {
+
+	width: 540px;
+    height: 442px;
+	margin-top: 5%;
+    margin-left : 7%;
+    margin-right: auto;
+    position:absolute;
+	overflow: hidden;
+    border:solid;
+    bottom: auto;
+    border-style: solid;
+    border-color: rgb(56, 112, 233);
+    border-width: 10px;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 700%;
+	
+	animation: slide 35s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	10% {margin-left: 0;}
+	
+	15% {margin-left: -100%;}
+	25% {margin-left: -100%;}
+	
+	30% {margin-left: -200%;}
+	40% {margin-left: -200%;}
+	
+	45% {margin-left: -300%;}
+	55% {margin-left: -300%;}
+    
+    60% {margin-left: -400%;}
+	70% {margin-left: -400%;}
+
+    75% {margin-left: -500%;}
+	85% {margin-left: -500%;}
+
+    90% {margin-left: -600%;}
+	100% {margin-left: -600%;}
+
+}
+
+.turno{
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+    margin-top: 10%;
+    height: 2000px;
+}
+
+.todo{
+    background-color:#E4EFFF;
+    padding-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
